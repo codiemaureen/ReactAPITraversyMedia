@@ -13,7 +13,6 @@ const App = () => {
     const tasksFromServer = await fetchTasks()
     setTasks(tasksFromServer)
   }
-
   getTasks()
  }, [])
 
